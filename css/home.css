@@ -1,0 +1,190 @@
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header_all {
+    display: flex;
+    flex-direction: row;
+}
+
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+    margin: auto;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+  transform: translate(0, -11px) rotate(45deg);
+}
+
+.logo_and_name {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    margin: auto;
+}
+
+.logo {
+    width: 80px;
+    height: 65px;
+    border-radius: 30%;
+}
+
+.name {
+    margin-left: 20px;
+    font-size: 170%;
+}
+
+body {
+    margin-top: 100px;
+}
+
+hr {
+    border-top: 1.57px solid #000000;
+    border-radius: 10px;
+    margin: 0px 5px 0px 5px;
+}
+
+.headerEnd {
+    margin: 5px 5px 0px 5px;
+}
+
+.newsEnd {
+    border-top: 1.20px solid #000000;
+}
+
+.News {
+    display: flex;
+    margin: 4%;
+}
+
+.news_image{
+    box-shadow: 5px 10px #000;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 15px;
+}
+
+.newsPara {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-size: 100%;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f7f5f5;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    left: -300px;
+    transition: .5s;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.blogs {
+    padding-left: 30px;
+}
+
+.Blog_head {
+    margin-top: 12px;
+    color: orange;
+    font-size: 35px;
+}
+
+.Blog_text {
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 70px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+.podcasts {
+    padding-left: 30px;
+}
+
+.podcast_head {
+    margin-top: 12px;
+    color: greenyellow;
+    font-size: 35px;
+}
+
+.podcast_textandimage{
+    display: flex;
+}
+
+.podcast_text {
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+
+.podcast_image {
+    width: 30%;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    box-shadow: 5px 10px #000;
+    box-shadow: 5px 5px 8px #888888;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #454545;
+    display: flex;
+}
+
+#contact {
+    margin: auto ;
+    font-size: 110%;
+    color: aliceblue;
+}
+
+.logo_and_name_footer {
+    display: flex;
+    width: 78%;
+    height: 10%;
+    margin: 20px;
+}
